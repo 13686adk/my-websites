@@ -1,0 +1,57 @@
+/* Styling for the Signup heading */
+h3 {
+    font-size: 35px;           
+    color: #007BFF;            
+    text-align: center;    
+    margin: 15px 0;           
+    padding: 50px;             
+    font-family: 'Arial', sans-serif; 
+    border-radius: 8px;         
+    display: grid;    
+   
+}
+
+
+
+/* General form styling */
+form {
+    border-radius: 8px;       
+    padding: 20px;            
+    margin: 20px auto;       
+    max-width: 400px;         
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Input fields styling */
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;               
+    padding: 10px;             
+    margin-bottom: 15px;       
+    border: 1px solid #ccc;   
+    border-radius: 4px;        
+    box-sizing: border-box;    
+}
+
+/* Button styling */
+form button {
+    width: 100%;              
+    padding: 10px;             
+    background-color: #007BFF; 
+    color: white;             
+    border: none;              
+    border-radius: 4px;       
+    font-size: 16px;          
+    cursor: pointer;          
+}
+
+/* Button hover effect */
+form button:hover {
+    background-color: #0056b3; 
+}
+/* Button  hover effect */
+.form button:hover {
+    background-color: red; 
+}
+
